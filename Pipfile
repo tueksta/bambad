@@ -7,7 +7,6 @@ name = 'pypi'
 python_version = '3.7'
 pip = '19.2'
 wheel = '0.33'
-twine = '1.14'
 
 [packages]
 'configargparse' = '*'
@@ -15,3 +14,5 @@ twine = '1.14'
 'requests' = '*'
 'keyring' = '*'
 pywin32 = {version = '*',platform_system = "== 'Windows'"}
+bambad = {editable = true,path = "."}
+twine = "*"
