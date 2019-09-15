@@ -1,0 +1,17 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = false
+name = 'pypi'
+
+[requires]
+python_version = '3.7'
+pip = '19.2'
+wheel = '0.33'
+twine = '1.14'
+
+[packages]
+'configargparse' = '*'
+'configparser' = '*'
+'requests' = '*'
+'keyring' = '*'
+pywin32 = {version = '*',platform_system = "== 'Windows'"}
