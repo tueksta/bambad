@@ -9,7 +9,7 @@ setup(
     name="bambad",
     version="1.0.0",
     author="Andreas Beer",
-    author_email="andreas.beer@gmail.com",
+    author_email="andreas.beer+bambad@gmail.com",
     description="A command line tool for finding, downloading, unpacking and launching Bamboo artifacts for Mac, Windows, and iOS on a Bamboo server via the Bamboo API(s)",
     long_description=readme,
     long_description_content_type="text/markdown",
